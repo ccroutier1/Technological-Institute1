@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  
+  <title>Technological Institute</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu', sans-serif;
+      background-color: white;
+}
+    .table-101{
+      text-align: left;
+    }
+    h2 {
+      color: black;
+    }
+    header {
+      font-family: 'Maven Pro', sans-serif;  background: linear-gradient(to bottom, #153866, #0B1D38);
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+  padding: 20px;
+  font-size: large;
+    }
+    header hr {
+  border: none;
+  height: 2mm;
+  background-color: whitesmoke ;
+  margin-bottom: 0px;
+    }
+    section {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content:left;
+      margin: 20px;
+    }
+    article {
+      font-family: 'Ubuntu', sans-serif;
+      padding: 0px;
+      margin: 0px;
+      flex-basis: 100%;
+    }
+    table {
+      background-color: #f5f5f5;
+			border-collapse: separate;
+			width: 100%;
+		}
+
+		th, td {
+      font-family: 'Ubuntu', sans-serif;
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+
+		th {
+			background-color: #153866;
+			color: white;
+		}
+.topnav {
+  background: linear-gradient(to top, #153866, #0B1D38);
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #32659A;
+  color: white;
+}
+.table-101 {
+  margin: 20px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.table-101 th, .table-101 td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-101 th {
+  background-color: #153866;
+}
+
+.table-101 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-102 {
+  margin: 20px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.table-102 th, .table-102 td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-102 th {
+  background-color: #153866;
+}
+
+.table-102 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-102 h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.title-101 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.tabletext-101 {
+  text-align: left; 
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.table-paragraph-102 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black ;
+  margin: 20px 0;
+}
+.table-paragraph-103 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black ;
+  margin: 20px 0;
+}
+
+.title {
+			color: black;
+			font-size: 36px;
+			text-align: left;
+      margin: 20px;
+}
+.body-text {
+			font-size: 15px;
+			line-height: 1.5;
+			margin: 20px;
+}
+aside {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky ;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+ul {
+  list-style:circle;
+  margin: 0;
+  padding: 10;
+}
+
+li {
+  margin-bottom: 0px;
+}
+
+a {
+  color: #333;
+  text-decoration:solid;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-family: 'Niramit', sans-serif;  font-weight: bold;
+  font-size: large;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #153866, #0B1D38);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </div>
+   <header>
+    <h1>Technological Institute</h1>
+    <hr>
+  </header>
+  <h1 class="title"><br>What is Cross-Platform Development?</h1>
+	<p class="body-text">the process of creating software applications or products that can run on multiple platforms or operating systems, such as Windows, macOS, Linux, iOS, and Android, using a single codebase. This approach allows developers to save time and resources by building a product once and deploying it across different platforms, rather than creating separate versions for each platform. Cross-platform development can be achieved through various technologies such as hybrid mobile frameworks, cross-platform native frameworks, and web technologies.</p>
+  </h1>
+    <section>
+      <h2 class="tabletext-101" style="color: black; font-size: 24px;">Examples of Open-source Cross-Platform Frameworks Based on their Programming Languages</h2>
+      <div class="table-101">
+    <article>
+    <table>
+        <thead>
+          <tr>
+            <th>Programming Language</th>
+            <th>Framework</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JavaScript</td>
+            <td>React Native, Ionic, Apache Cordova, NativeScript, Weex</td>
+          </tr>
+          <tr>
+            <td>Dart</td>
+            <td>Flutter</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>Xamarin, .Net Framework, Unity</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Codename One, PhoneGap</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Kivy, BeeWare</td>
+          </tr>
+          <tr>
+            <td>Ruby</td>
+            <td>RubyMotion, Volt Framework, Rhodes</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>Qt, Marmalade, Unity</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    </div>
+    <h2>The Difference Between Native and Cross-Platform App Development</h2>
+    <div class="table-102">
+    <article>
+      <p class="table-paragraph-102">Native vs. cross-platform is a never-ending debate that has kept the tech community divided for years. There are a few experts who prefer native apps over cross-platform apps.
+        <br>
+        <br> Native and Cross-platform development technologies are in a constant state of evolution. This changing nature of technologies signals that these topics should be revisited from time to time to understand which of these options is currently leading the game.<br>
+        <br>Native app development eschews the complexity of creating a sustainable product that spans multiple platform app development and focuses on generating a competent design that stays close to the target platform (i.e., Android, iOS, etc).
+        <br>
+        <br>Cross-platform frameworks seek to generate an app that reaches out to as many followers of a brand as possible by covering a wide number of end devices during the programming and creation process.
+      </p>
+    <table>
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Native</th>
+            <th>Cross-Platform</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cost</td>
+            <td>High cost of development</td>
+            <td>Relatively low cost of development</td>
+          </tr>
+          <tr>
+            <td>Code Usability</td>
+            <td>Works for a single platform</td>
+            <td>Single code can be used on multiple platforms for an easy portability</td>
+          </tr>
+          <tr>
+            <td>Device Access</td>
+            <td>Platform SDK ensures access to device’s API without any hindrance</td>
+            <td>No assured access to all device APIs</td>
+          </tr>
+          <tr>
+            <td>UI Consistency</td>
+            <td>Consistent with the UI components of the device</td>
+            <td>Limited consistency with the UI components of the device</td>
+          </tr>
+          <tr>
+            <td>Performance</td>
+            <td>Seamless performance, given the app is developed for the device’s OS</td>
+            <td>High on performance, but lags and hardware compatibility issues are not uncommon</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    </div>
+    <h2>Challenges in Cross-Platform App Development Process</h2>
+    <div class="article-103">
+      <article>
+        <p class="table-paragraph-103">
+          A few years ago, cross-platform app development was constrained to making simple mobile apps and games. Over time, emerging technologies have made cross-platform development more adaptable, powerful, and flexible than before.<br>
+          However, cross-platform development still faces challenges like:<br>
+          <li>Performance hiccups because of inconsistent communication between the native and non-native components of gadgets</li><br>
+            <li>Cross-platform app developers have difficulty maintaining cross-compliance of apps across devices and operating systems</li><br>
+            <li>Performance-related glitches can lead to poor user experience</li><br>
+            <li>If a business app manages part of a corporation and stores the user’s data, then going for cross-platform apps is not always a good idea due to security concerns</li><br>
+            However, these challenges are minimal when compared to the benefits of cross-platform app development.
+          </p>
+      </article>
+    </div>
+    <div class="article-102" style="color: black">      
+      <h2 class="article-text-101" style="color: black;">Benefits of Cross-Platform App Development</h2>
+    <article>
+      <p><h3>1. Maximum Exposure to the Target Audience</h3><br>
+        Leveraging a mobile cross-platform development approach enables a company to build an app and deploy it over various platforms, including the web. This means that, by building a single app, one can target both iOS and Android platforms. Thus, maximizing their reach.<br>
+        
+        <br><h3>2. Reduced Development Cost</h3><br>
+        The cross-platform app development is based on the concept ‘write once, run everywhere. Reusable codes and Agile app development processes and tools can lessen the cost of development. Therefore, in order to improve a business on multiple platforms in a cost-effective way, there is no other alternative to cross-platform apps.<br>
+        
+        <br><h3>3. Easier Maintenance & Deployment<br></h3>
+        In cross-platform app development, a single and a universal app is compatible for running on all platforms. This makes it easier to maintain and deploy code as changes are made. Updates can promptly be synced over all platforms and devices, thus saving time and money. Moreover, if a bug is found in the common codebase, it only needs to be fixed once. In this way, developers can save a lot of time and money.<br>
+        
+        <h3>4. Quicker Development Process<br></h3>
+        The quick development process is another win-win situation when it comes to developing cross-platform apps. Single source code for multiple platforms can help reduce the development efforts by 50 to 80%. The process helps to develop a feature-rich business app in less time. The team of developers can meet the expected deadlines in cross-platform app development.<br>
+        
+       <h3> 5. Reusable Code<br></h3>
+        Another good thing about this platform is that the code can be used again and again. Instead of developers developing new codes for every platform, a single code can be reused. This saves time as well as resources because it eliminates repetition in the task of creating codes.<br>
+        
+        <h3>6. Easy Integration with Cloud<br></h3>
+        Cross-platform mobile apps are totally compatible and can take advantage of various plugins integrated with the cloud settings. In other words, the single source code is coordinated with various plug-ins and extensions to enhance the app’s scalability and functionality.<br>
+        
+        <h3>7. Faster Time-to-Market and Customization<br></h3>
+        As mentioned above ‘write once, run everywhere is the concept that is followed while building cross-platform app development. This allows app developers to reduce Time-to-Market (TTM) with quick deployment.<br>
+        
+        Also, if the app needs to be transformed or customized, it is easy for the developers to do minor changes in a single code. This helps to deliver products more swiftly than the competitors by improving customer engagement.<br>
+        
+        <h3>8. Uniform Design<br></h3>
+        Users can recognize user interface (UI) elements, and foresee their interactions over various platforms. Therefore, User Experience (UX) is an important thing to consider for any app or software.<br>
+        
+        It is hard to sync the various development projects while developing multiple apps. Cross-platform mobile development tools allow developers and designers to build a uniform user experience that app users can enjoy.<br></p>
+</article>
+    </div>
+<aside>
+  <h2 class="aside-101-text">Other</h2>
+  <ul>
+    <li><a href="#">Native Mobile Application Development</a></li>
+    <li><a href="#">Web Application Development</a></li>
+    <li><a href="#">Machine Learning</a></li>
+    <li><a href="#">Internet of Things (IoT)</a></li>
+  </ul>
+</aside>
+  </section>
+  <footer>
+    <p>Creator: Rover James Bendana / Shine Daliva</p>
+  </footer>
+  
+</body>
+</html>
